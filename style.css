@@ -99,3 +99,36 @@ nav a {
     border-radius: 50%;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+
+/* Estilo para o link do Instagram no menu */
+.instagram-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #e1306c !important; /* Cor característica do Instagram */
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid #eee;
+}
+
+.insta-footer-icon {
+    width: 40px;
+    margin: 15px 0;
+    transition: transform 0.3s;
+    border-radius: 8px;
+}
+
+.insta-footer-icon:hover {
+    transform: translateY(-5px);
+}
+
+footer p {
+    font-size: 14px;
+    color: #888;
+}
