@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja de Delícias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="https://via.placeholder.com/150x80?text=SUA+LOGO" alt="Logo da Loja" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#bolos">Bolos</a></li>
+                    <li><a href="#doces">Doces</a></li>
+                    <li><a href="#salgados">Salgados</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Doces & Salgados Feitos com Amor</h1>
+        <p>Peça agora e receba em sua casa!</p>
+    </section>
+
+    <main class="container">
+        <section id="bolos" class="product-grid">
+            <h2>Nossos Bolos</h2>
+            <div class="card">
+                <img src="https://via.placeholder.com/250x180?text=Bolo+Chocolate" alt="Bolo">
+                <h3>Bolo de Chocolate</h3>
+                <p>R$ 50,00</p>
+                <button onclick="fazerPedido('Bolo de Chocolate')">Encomendar</button>
+            </div>
+            </section>
+    </main>
+
+    <div id="whatsapp-button" onclick="abrirWhatsapp()">
+        <img src="https://via.placeholder.com/50?text=Zap" alt="WhatsApp" id="whatsapp-icon">
+        <span class="tooltip">Faça seu pedido!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
