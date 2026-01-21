@@ -1,5 +1,5 @@
 // Altere o número abaixo para o seu (DDD + Número) sem espaços ou parênteses
-const SEU_NUMERO = "5511999999999"; 
+const SEU_NUMERO = "91982320717"; 
 
 function abrirWhatsapp() {
     const mensagem = encodeURIComponent("Olá! Gostaria de ver o cardápio e fazer um pedido.");
