@@ -132,3 +132,18 @@ footer p {
     font-size: 14px;
     color: #888;
 }
+/* Ajusta o ícone do Instagram no menu (Header) */
+.instagram-link img {
+    width: 24px;   /* Largura pequena */
+    height: 24px;  /* Altura pequena */
+    object-fit: contain;
+    vertical-align: middle; /* Alinha com o texto ao lado */
+}
+
+/* Ajusta o ícone do Instagram no rodapé (Footer) */
+.insta-footer-icon {
+    width: 35px;   /* Um pouco maior que o do menu, mas ainda discreto */
+    height: 35px;
+    object-fit: contain;
+    border-radius: 8px;
+}
